@@ -13,6 +13,7 @@
 		5A12C1681EC2F93F00929175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A12C1661EC2F93E00929175 /* Main.storyboard */; };
 		5A12C16A1EC2F94400929175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A12C1691EC2F94400929175 /* Assets.xcassets */; };
 		5A12C16D1EC2F94900929175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A12C16B1EC2F94900929175 /* LaunchScreen.storyboard */; };
+		5A12C1761EC311BF00929175 /* Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A12C1751EC311BF00929175 /* Custom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5A12C1691EC2F94400929175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A12C16C1EC2F94900929175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A12C16E1EC2F94B00929175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A12C1741EC311BF00929175 /* Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Custom.h; sourceTree = "<group>"; };
+		5A12C1751EC311BF00929175 /* Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Custom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				5A12C16B1EC2F94900929175 /* LaunchScreen.storyboard */,
 				5A12C16E1EC2F94B00929175 /* Info.plist */,
 				5A12C15D1EC2F93100929175 /* Supporting Files */,
+				5A12C1741EC311BF00929175 /* Custom.h */,
+				5A12C1751EC311BF00929175 /* Custom.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				5A12C1651EC2F93A00929175 /* ViewController.m in Sources */,
 				5A12C1621EC2F93500929175 /* AppDelegate.m in Sources */,
+				5A12C1761EC311BF00929175 /* Custom.m in Sources */,
 				5A12C15F1EC2F93200929175 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
