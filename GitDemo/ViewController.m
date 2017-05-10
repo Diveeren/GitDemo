@@ -21,8 +21,6 @@
     
     
     NSLog(@"Hello");
-    NSLog(@"Helloooo");
-    NSLog(@"Helloooo NewBranch");
 
 }
 
